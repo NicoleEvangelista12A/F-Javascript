@@ -40,6 +40,7 @@ potenciacao (numero1, numero2)
 multiplicacao (numero2, numero1)
 */
 
+/*
 function raizQuadrada (numero) {
     return Math.sqrt(numero)
  }
@@ -60,4 +61,20 @@ function raizQuadrada (numero) {
  let raiz2 = raizQuadrada(numero2)
 
  console.log(raiz1, raiz2)
+ */
+
+ function boasVindas(nome, idade) {
+  return `Seja bem-vindo(a), ${nome}!
+  ${nome}, você é muito especial!
+  Parabéns pelo seu aniversário de ${idade} anos.`;
+  }
+  
+  let nome = prompt("Digite seu nome:");
+  let idade = prompt("Digite sua idade:");
+  
+  let mensagem = boasVindas(nome, idade);
+  
+  alert(mensagem);
+  console.log(mensagem)
+  
  
